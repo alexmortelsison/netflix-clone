@@ -1,7 +1,9 @@
 "use client";
+import { BellIcon, SearchIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import UserNav from "./UserNav";
 
 interface linkProps {
   name: string;
@@ -55,6 +57,11 @@ export default function Navbar() {
             </div>
           ))}
         </ul>
+      </div>
+      <div className="flex items-center gap-x-8">
+        <SearchIcon className="w-5 h-5 text-gray-300 cursor-pointer" />
+        <BellIcon className="w-5 h-5 text-gray-300 cursor-pointer" />
+        <UserNav />
       </div>
     </div>
   );
