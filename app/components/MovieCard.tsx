@@ -34,7 +34,7 @@ export default function MovieCard({
   return (
     <>
       <button onClick={() => setOpen(true)} className="mt-14">
-        <PlayCircleIcon className="h-20 w-20" />
+        <PlayCircleIcon className="h-20 w-20 flex mb-24" />
       </button>
       <div className="right-5 top-5 absolute z-10">
         {watchList ? (
