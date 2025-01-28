@@ -26,7 +26,7 @@ export default async function LoginPage() {
           <Button
             type="submit"
             variant={"destructive"}
-            className="w-full bg-[#e50914]"
+            className="w-full bg-[#e50915]"
           >
             Log in
           </Button>
